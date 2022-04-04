@@ -1,0 +1,37 @@
+{
+  "name": "api-test",
+  "version": "1.0.0",
+  "description": "API Test",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muhammadainul/api-test.git"
+  },
+  "author": "Ainul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muhammadainul/api-test/issues"
+  },
+  "homepage": "https://github.com/muhammadainul/api-test#readme",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "crypto": "^1.0.1",
+    "debug": "^4.3.4",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.2",
+    "passport": "^0.5.2",
+    "passport-jwt": "^4.0.0",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "request": "^2.88.2",
+    "sequelize": "^6.18.0",
+    "sequelize-cli": "^6.4.1"
+  }
+}
